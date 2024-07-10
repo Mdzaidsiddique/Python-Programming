@@ -58,7 +58,7 @@ x_memoryview = memoryview(bytes(5)) #memoryview
 print(x_bytes, x_bytearray, x_memoryview)
 
 # None Type :: NoneType
-x_none = None;
+x_none = None 
 print(x_none)
 
 
