@@ -39,6 +39,11 @@ print("ZAID".isupper()) #True
 # islower() => Returns True if all characters in the string are lower case
 print("zaid".islower()) #True
 
+
+# index()	        Searches the string for a specified value and returns the position of where it was found
+s = "zaid alif"
+print(s.index("d"))
+print("-=-=-=--=-=-=-=-=-=-")
 '''
 Method	        Description
 
@@ -49,7 +54,7 @@ expandtabs()	Sets the tab size of the string
 
 format()	    Formats specified values in a string
 format_map()	Formats specified values in a string
-index()	        Searches the string for a specified value and returns the position of where it was found
+
 isalnum()   	Returns True if all characters in the string are alphanumeric
 isalpha()	    Returns True if all characters in the string are in the alphabet
 isascii()	    Returns True if all characters in the string are ascii characters
@@ -61,30 +66,48 @@ isnumeric()	    Returns True if all characters in the string are numeric
 isprintable()	Returns True if all characters in the string are printable
 isspace()	    Returns True if all characters in the string are whitespaces
 
-join()	        Joins the elements of an iterable to the end of the string
+
 ljust()     	Returns a left justified version of the string
 lstrip()	    Returns a left trim version of the string
 maketrans()	    Returns a translation table to be used in translations
 partition()	    Returns a tuple where the string is parted into three parts
-replace()	    Returns a string where a specified value is replaced with a specified value
+
 rfind()	        Searches the string for a specified value and returns the last position of where it was found
 rindex()	    Searches the string for a specified value and returns the last position of where it was found
 rjust()	        Returns a right justified version of the string
 rpartition()	Returns a tuple where the string is parted into three parts
 rsplit()	    Splits the string at the specified separator, and returns a list
 rstrip()	    Returns a right trim version of the string
-split()	        Splits the string at the specified separator, and returns a list
+
 splitlines()	Splits the string at line breaks and returns a list
-startswith()	Returns true if the string starts with the specified value
-strip()     	Returns a trimmed version of the string
+
+
 swapcase()  	Swaps cases, lower case becomes upper case and vice versa
 translate() 	Returns a translated string
-
 '''
 
-# zfill()     	Fills the string with a specified number of 0 values at the beginning
+# join()	        Joins the elements of an iterable to the end of the string
+s = ["my", "name", "is", "zaid"]
+
+# replace()	    Returns a string where a specified value is replaced with a specified value
+s = "zaid alif s"
+s2 = s.replace("s", "siddique")
+print(s2)
+
+# split()	        Splits the string at the specified separator, and returns a list
+str = "my name is khan"
+str_list = str.split()
+print(str_list)
+
+# startswith()	Returns true if the string starts with the specified value
+print("welcome".startswith("w"))
+
+# strip()     	Returns a trimmed version of the string
+print("  zaid  ".strip())
+
+# zfill() => Fills the string with a specified number of 0 values at the beginning
 print("56".zfill(5)) #00056
-print("45".zfill(10))
+print("45".zfill(10)) #0000000045
 
 
 
