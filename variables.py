@@ -8,10 +8,10 @@
 - A variable name cannot be any of the Python keywords.
 """
 
-first_name = "zaid";
-firstName = "zaid";
-_firstName = "zaid";
-_first_name = "zaid";
+first_name = "zaid"
+firstName = "zaid"
+_firstName = "zaid"
+_first_name = "zaid"
 first_name2 = "md"
 
 # Assigning Multiple Variables
@@ -71,16 +71,16 @@ def funcOne():
 	global x
 	x = "Easy to learn"
 
-print("Python is "+x);
-funcOne();
+print("Python is "+x)
+funcOne()
 print("Python is ", x)
 
 # also we can use global keyword to cahnge the global variable inside a function
 
-score = 10;
+score = 10
 
 def funTwo():
-	global score;
+	global score
 	score = 90;
 	print("Score inside fun is ", score); # 90
 
