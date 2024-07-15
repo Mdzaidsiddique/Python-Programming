@@ -59,4 +59,3 @@ print(x is not y) # returns true if both are not the same object
     # not in: opposite of in
 print("z" in "zaid")
 
-

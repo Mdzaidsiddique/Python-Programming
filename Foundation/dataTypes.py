@@ -38,7 +38,9 @@ x = range(6) #range
 print(x, x[1])
 
 # Mapping Type :: dict
-student = {"name":"Alif", "Roll":10} #dict
+student = {
+    "name":"Alif",
+    "Roll":10}
 print(student)
 
 # Set Types :: set, frozenset
@@ -47,8 +49,8 @@ fruits_fs = frozenset({"apple", "banana", "orange"}) #frozenset
 print(fruits_set, fruits_fs)
 
 # Boolean Type :: bool (True, False)
-x = True; #bool
-y = False;
+x = True 
+y = False
 print(x, y)
 
 # Binary Types :: bytes, bytearray, memoryview

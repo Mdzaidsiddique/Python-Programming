@@ -26,3 +26,11 @@ print(short_intro)
 score = 15
 print(f"new score {score * 5}")
 print(f"new score {score * 5 :.2f}")
+
+
+name = "zaid"
+nationality = "India"
+
+output = "Hay my name is {} and i am from {}"
+
+print(output.format(name, nationality))

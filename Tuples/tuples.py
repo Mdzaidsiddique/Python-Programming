@@ -54,5 +54,3 @@ tt = ('apple', 'banana', 'cherry', 'apple', 'banana', 'cherry')
 print(tt.count("apple")) # 2
 
 print(tt.index("cherry")) # 2: first occuring element
-
-
