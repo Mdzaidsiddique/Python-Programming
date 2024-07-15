@@ -6,6 +6,9 @@
 print(2<5) #True
 print(0!=0) #False
 
+# True is treated as 1 in python
+print(True+4) #5
+
 # bool() => evaluate any value and return True or False
 print(bool("Hello")) #True
 print(bool(13)) #True

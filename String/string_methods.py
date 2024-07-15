@@ -7,7 +7,7 @@ last_name = "Siddique"
 # capitalize() => Converts the first character to upper case
 print(name.capitalize())
 
-# casefold() => Converts string into lower case
+# casefold() => Converts string into lower case : More thorough conversion for accurate case-insensitive comparisons
 print(first_name.casefold())
 
 # title() => Converts the first character of each word to upper case
@@ -16,7 +16,7 @@ print(first_name.title())
 # upper() => Converts a string into upper case
 print(name.upper())
 
-# lower() => Converts a string into lower case
+# lower() => Converts a string into lower case : basic conversion
 print(first_name.lower())
 
 # center(length, character) => Returns a centered string
@@ -88,6 +88,7 @@ translate() 	Returns a translated string
 
 # join()	        Joins the elements of an iterable to the end of the string
 s = ["my", "name", "is", "zaid"]
+print("-".join(s))
 
 # replace()	    Returns a string where a specified value is replaced with a specified value
 s = "zaid alif s"

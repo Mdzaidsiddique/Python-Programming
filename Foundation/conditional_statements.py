@@ -19,7 +19,7 @@ else:
 
 
 # Ternary Operators, or Conditional Expressions: concise way to perform conditional assignments
-# <value_if_true> if <condition> else <value_if_false>
+# <value_if_true> if <condition> else <value_if_false>: You can also have multiple else statements on the same line:
 # sort hand if
 if a>b: print("a is greater")
 

@@ -5,7 +5,8 @@ for c in "string":
 
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
-    print(x)
+    print(x) # by default end='\n' in print() method, we can change it
+    print(x, end="-")
 
 print("---seperator---")
 

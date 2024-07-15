@@ -74,6 +74,12 @@ list1.extend(list2) #extend() method to add list2 at the end of list1
 print(list1)
 
 
+list = ["car", "bike", "plane"]
+list[1:1] = "super Bike"
+list[1:11] = ""
+
+list[1:1] = ["super bike"]
+print(list)
 
 
 
