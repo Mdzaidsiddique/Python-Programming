@@ -1,0 +1,10 @@
+
+iterator tools: (for and comprehension[])
+        |
+        | iter()
+        |
+iterator objects: (lists, file, tuple, dict, str etc)
+        |
+        | next()
+        |
+__next__() : this will check next item is present or not, if not then it will throw exception (StopIteration)

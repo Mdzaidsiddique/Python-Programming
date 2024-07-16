@@ -6,3 +6,19 @@
 username = input("Enter username..") 
 
 print(f"You have entered username : {username}")
+
+# everytime we get value from user input is comes in string type
+
+
+score = int(input("Enter your Score :\n")) #\n for new line
+
+if score>=100:
+    print("please enter score less then 100")
+    exit()
+elif score<0:
+    print("Score should be +ve")
+    exit()
+else:
+    print(f"Your score is : {score}")
+
+

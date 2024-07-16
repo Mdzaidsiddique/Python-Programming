@@ -20,7 +20,7 @@ first_name2 = "md"
 x,y,z = 1,2,3
 
 ## one value to multiple variable
-a=b=c=45;
+a=b=c=45
 
 print(b)
 

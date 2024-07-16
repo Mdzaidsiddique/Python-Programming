@@ -1,0 +1,22 @@
+>>> list = [1,2,34]
+>>> I = iter(list)
+>>> I
+<list_iterator object at 0x000001B3EB685C60>
+>>> I.__next__()
+1
+>>> I.__next__()
+2
+>>> I.__next__()
+34
+>>> I.__next__()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+>>>
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+I = iter(range(0,10))
+I = iter(dict)
+I = iter(any iterable object)
+next(I) is same as I.__next__()

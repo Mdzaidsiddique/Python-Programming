@@ -1,4 +1,4 @@
-# Data Types : Python dont have data types but the value asssign to a variable or stored to a variable have data types
+# Data Types : Python variables dont have data types but the value asssign to a variable or stored to a variable have data types
 # a = 10 then 10 has int type not a
 """
 Built-in Data Types
