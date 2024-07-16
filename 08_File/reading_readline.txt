@@ -1,0 +1,11 @@
+>>> f = open("file_reading.py")
+>>> f.readline()
+'import time\n'
+>>> f.readline()
+'username = "zaid"\n'
+>>> f.readline()
+'\n'
+>>> f.readline()
+'print(username)'
+>>> f.readline()
+''   #this empty string means there is nothig to read

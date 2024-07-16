@@ -1,0 +1,172 @@
+Installation of latest version python:
+https://www.python.org/downloads/
+
+Installation of selenium libraries:
+
+https://pypi.org/project/selenium/
+Run pip install selenium on cmd prompt to install selenium.
+pip show selenium to see installed selenium version 
+
+Installation of PyCharm IDE for community version:
+
+https://www.jetbrains.com/pycharm/download/#section=windows
+
+
+Print types in Python:
+https://www.w3schools.com/python/ref_func_print.asp
+https://www.w3schools.com/python/ref_string_format.asp
+
+
+
+Comments:
+https://www.javatpoint.com/python-comments
+https://www.w3schools.com/python/python_comments.asp
+
+
+Arithmetical operations:
+Addition, subtraction, division, modulus, floor, other mathematical operations
+
+https://www.tutorialspoint.com/python/python_numbers.htm
+
+https://www.tutorialspoint.com/python/arithmetic_operators_example.htm
+
+Input : 
+https://www.w3schools.com/python/python_user_input.asp
+Python Input(): Take Input From User [Guide]
+
+Comparison operators:
+https://www.w3schools.com/python/gloss_python_comparison_operators.asp
+
+Logical operators:
+https://www.w3schools.com/python/gloss_python_logical_operators.asp
+
+Bitwise operators:
+https://www.geeksforgeeks.org/python-bitwise-operators/
+https://www.w3schools.com/python/gloss_python_bitwise_operators.asp
+
+special operators(identity operators, membership operators):
+
+https://www.w3schools.com/python/gloss_python_identity_operators.asp
+https://www.w3schools.com/python/gloss_python_membership_operators.asp
+
+
+If else and Nested if :
+https://www.w3schools.com/python/python_conditions.asp
+Practice programs: Century year, leap year, odd even,  divisibility by 6
+
+While loop:
+Read while loop:
+https://www.tutorialspoint.com/python/python_while_loop.htm
+
+Read while-else:
+https://www.w3schools.com/python/gloss_python_while_else.asp
+
+Read for loop:
+https://www.javatpoint.com/python-for-loop
+w3schools.com/python/python_for_loops.asp
+
+
+Xrange:
+https://www.pythoncentral.io/how-to-use-pythons-xrange-and-range/
+
+List:
+
+https://www.programiz.com/python-programming/list
+
+Tuple:
+https://www.w3schools.com/python/python_tuples.asp
+
+
+Sets:
+https://www.w3schools.com/python/python_sets.asp
+https://www.w3schools.com/python/python_sets_access.asp
+https://www.w3schools.com/python/python_sets_add.asp
+https://www.w3schools.com/python/python_sets_remove.asp
+https://www.w3schools.com/python/python_sets_methods.asp
+
+Dictionary:
+https://www.w3schools.com/python/python_dictionaries.asp
+https://www.w3schools.com/python/python_dictionaries_access.asp
+https://www.w3schools.com/python/python_dictionaries_change.asp
+https://www.w3schools.com/python/python_dictionaries_remove.asp
+https://www.w3schools.com/python/python_dictionaries_copy.asp
+https://www.w3schools.com/python/python_dictionaries_methods.asp
+
+Strings:
+https://www.w3schools.com/python/python_strings.asp
+https://www.w3schools.com/python/python_strings_slicing.asp
+https://www.w3schools.com/python/python_strings_modify.asp
+https://www.w3schools.com/python/python_strings_concatenate.asp
+https://www.w3schools.com/python/python_strings_methods.asp
+
+
+
+
+
+Class and object in python:
+https://www.geeksforgeeks.org/python-classes-and-objects/
+
+Inheritance:
+https://www.w3schools.com/python/python_inheritance.asp
+
+
+Scope:
+https://www.w3schools.com/python/python_scope.asp
+
+Modules:
+https://www.w3schools.com/python/python_modules.asp
+
+Math:
+https://www.w3schools.com/python/python_math.asp
+
+
+Try-except:
+https://www.w3schools.com/python/python_try_except.asp
+
+User-input:
+https://www.w3schools.com/python/python_user_input.asp
+
+String formatting:
+https://www.w3schools.com/python/python_string_formatting.asp
+
+
+File handling- Read:
+https://www.w3schools.com/python/python_file_open.asp
+
+Write/create files:
+https://www.w3schools.com/python/python_file_write.asp
+
+
+
+
+Faker module:
+ On command prompt run, pip install Faker
+
+
+Random module:
+https://www.w3schools.com/python/module_random.asp
+
+
+Python virtual environment:
+https://www.geeksforgeeks.org/python-virtual-environment/
+
+
+Decorators:
+https://www.geeksforgeeks.org/python-virtual-environment/
+
+Generators:
+https://www.tutorialsteacher.com/python/python-generator
+
+Datetime module:
+https://www.geeksforgeeks.org/python-datetime-module/
+
+
+
+-=-=-=-=-=-=-=-=-=Advance Topics-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Decorators
+Generators
+Virtual env
+Faker module 
+Random module
+Assert in Python 
+filter, map, reduce functions

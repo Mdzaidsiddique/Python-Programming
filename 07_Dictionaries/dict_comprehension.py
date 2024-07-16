@@ -10,3 +10,17 @@ original_dict = {'a': 1, 'b': 2, 'c': 3}
 transformed_dict = {k:v**2 for k,v in original_dict.items()}
 
 print(transformed_dict)
+
+
+squared_num = {x:x**2 for x in range(1,11)}
+
+print(squared_num)
+squared_num.clear()
+
+
+keys = ["Python", "Java", "c++"]
+default_value = "powerful Language"
+
+new_dict = dict.fromkeys(keys, default_value)
+
+print(new_dict)

@@ -1,0 +1,18 @@
+>>> f = open("file_reading.py")
+>>> f.__next__()
+'import time\n'
+>>> f.__next__()
+'username = "zaid"\n'
+>>> f.__next__()
+'\n'
+>>> f.__next__()
+'print(username)\n'
+>>> f.__next__()
+'\n'
+>>> f.__next__()
+'# please refer .txt file for commands'
+>>> f.__next__()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+>>>
