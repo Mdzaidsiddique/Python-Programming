@@ -1,5 +1,6 @@
 # for loop: used for iterating over sequence (string, list, tuple, set, dictionary)
 
+# The for loop actually creates an iterator object and executes the next() method for each loop.
 for c in "string":
     print(c)
 

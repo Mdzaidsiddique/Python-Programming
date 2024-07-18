@@ -28,6 +28,8 @@ print(f"new score {score * 5}")
 print(f"new score {score * 5 :.2f}")
 
 
+# .format()
+
 name = "zaid"
 nationality = "India"
 
