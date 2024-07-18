@@ -1,6 +1,5 @@
 # python support oop pradignms as well
-# everything in python are object (properties and methods)
-
+# everything in python are object
 # class: blueprint for creating object
 
 class myclass:
