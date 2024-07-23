@@ -1,4 +1,4 @@
-# String: Set of characters, surrounded by '' or ""
+# String: Set of characters, surrounded by '', "" or """ """"
 # Immutable (Can't change)
 # strings in Python are arrays of bytes representing unicode characters.
 
@@ -49,3 +49,14 @@ last_name = "siddique"
 full_name = first_name+" "+middle_name+" "+last_name
 
 print(full_name)
+
+s = """
+heu
+my 
+name"""
+print(s, type(s))
+
+
+# reversed string in python
+s = "zaid"
+reversed_s = s[::-1]

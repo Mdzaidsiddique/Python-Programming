@@ -1,4 +1,4 @@
-# slice [start:end] return range of characters by suing slice
+# slice [start:end] return range of characters by using slice
 # start(inclusive) & end(exclusive)
 
 str = "my name is khan"

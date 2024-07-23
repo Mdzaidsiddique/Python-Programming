@@ -38,7 +38,7 @@ thislist.insert(0, "orange")
 print(thislist) #['orange', 'apple', 'banana', 'cherry', 'mango']
 
 ### Remove: Specified Item
-# remove(item): it will remove th especified item form the list
+# remove(item): it will remove the specified item form the list
 # if there are more than one specified values are present in list, first occurance will remove
 removedItem = thislist.remove("orange")
 print(removedItem) #None

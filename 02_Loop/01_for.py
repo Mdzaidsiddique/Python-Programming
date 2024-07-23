@@ -1,4 +1,4 @@
-# for loop: used for iterating over sequence (string, list, tuple, set, dictionary)
+# for loop: used for iterating over sequence (string, list, tuple, set, dictionary, range())
 
 # The for loop actually creates an iterator object and executes the next() method for each loop.
 for c in "string":
@@ -59,7 +59,7 @@ else:
 
 # Nested loops
 number = [1,2,3,4,5]
-multiple = list(range(1,11))
+multiple = range(1,11)
 
 for x in number:
     print(f"table of {x}")

@@ -35,14 +35,14 @@ print(thislist[-4:-8]) # []
 print(thislist[-4:-6]) # []
 print(thislist[-4:])   # ['orange', 'kiwi', 'melon', 'mango']
 
-# in : to determine if element is present oe not
+# in : to determine if element is present or not
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 
 if "kiwi" in thislist:
     print("kiwi is present inside list")
 
 # copy a list
-# list2 = list1 pointed to a same object and changers will impact on both reference
+# list2 = list1 pointed to a same object and changes will impact on both reference
 list1 = [1,2,3]
 list2 = list1
 
@@ -86,3 +86,12 @@ print(list)
 
 
 
+# python dont have inbuit support for arrays
+# lists can be used instead
+
+# Arrays: collection of multiple items in a sing;e variables
+
+car_array = ["thar", "scorpio", "xuv300", "xuv700"]
+print(car_array)
+
+# Note: Python does not have built-in support for Arrays, but Python Lists can be used instead.
