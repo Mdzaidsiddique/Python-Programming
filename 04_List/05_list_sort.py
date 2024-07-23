@@ -31,5 +31,5 @@ print(list)
 num = [100, 240, 70, 40, 56]
 num.sort() #sort in ascending order
 print(num)
-num.reverse() # reverse
+num.reverse() # reverse the list
 print(num)

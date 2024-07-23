@@ -81,9 +81,8 @@ score = 10
 
 def funTwo():
 	global score
-	score = 90;
+	score = 90
 	print("Score inside fun is ", score); # 90
 
-funTwo();
+funTwo()
 print("Score outside fun is ", score) # 90
-

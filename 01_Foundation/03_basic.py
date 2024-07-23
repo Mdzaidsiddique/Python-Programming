@@ -14,7 +14,7 @@ if(5>2):
 ## variable names are case sensetive
  
 firstName = "zaid"
-lastName = "alif";
+lastName = "alif"
 
 print(firstName+" "+lastName+" siddique")
 
@@ -28,7 +28,6 @@ float1 = float(5) # 5.0
 
 # We can get the data type of a variable with the type() function.
 print(type(str1), type(float1))
-
 
 
 

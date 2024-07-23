@@ -19,6 +19,7 @@ print(name.upper())
 # lower() => Converts a string into lower case : basic conversion
 print(first_name.lower())
 
+
 # center(length, character) => Returns a centered string
 # length => required length of the returned string
 # character => Optional. The character to fill the missing space on each side. Default is " " (space)
