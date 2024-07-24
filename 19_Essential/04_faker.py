@@ -13,3 +13,6 @@ print(fake.text())
 
 for i in range(10):
     print(i+1, fake.name())
+
+
+# resources: https://pypi.org/project/Faker/
