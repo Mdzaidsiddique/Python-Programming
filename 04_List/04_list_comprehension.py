@@ -45,3 +45,6 @@ newlist = [x if x != "banana" else "orange" for x in fruits]
 
 list  = [x*10 for x in range(10) if x<5]
 print(list)
+
+sq_cube = [x**3 if x<5 else x**3 if x<10 else x+x for x in range(15) if x<=12]
+print(sq_cube)
