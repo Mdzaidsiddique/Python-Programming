@@ -5,7 +5,7 @@ import re
 # (1) search - Returns a Match object if there is a match anywhere in the string
 txt = "Consistency is the Key."
 x = re.search("not", txt)
-print(x) # if there is no match the value None wwill be returned instead of Match Object
+print(x) # if there is no match the value None will be returned instead of Match Object
 
 txt = "The rain in Spain"
 x = re.search("\s", txt) #\s: white space

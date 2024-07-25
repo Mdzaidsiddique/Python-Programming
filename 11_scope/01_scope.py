@@ -1,3 +1,6 @@
+# scope: a variable available only inside the region it is created.
+
+
 # Built-in Scope 
 from math import pi 
 
@@ -5,7 +8,7 @@ from math import pi
 
 def outer(): 
 	# pi = 'outer pi variable' (enclosed scope)
-	def inner(): 
+	def inner(): #closure 
 		# pi = 'inner pi variable' 
 		print(pi) 
 	inner() 

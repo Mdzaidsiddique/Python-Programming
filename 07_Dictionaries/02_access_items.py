@@ -7,9 +7,9 @@ my_dict = {
 }
 
 # access items by keyname
-print(my_dict["languages"])
+print(my_dict["languages"]) #will raise KeyError if key not found
 
-# by get() method
+# by get(key, default) method, No error raised, None, if key not found also default value can be provided
 language_known = my_dict.get("language")
 
 # key(): return list of all the keys in the dictionary ('dict_keys' types)
@@ -55,3 +55,5 @@ print(items)
 # chekc if key exists
 if "color" in car:
     print("Yes, different colors are available")
+
+

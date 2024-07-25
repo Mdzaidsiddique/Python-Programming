@@ -28,4 +28,3 @@ print(Counter(list))
 # using dictionary comprehension
 occurance = {element: list.count(element) for element in list}
 print(occurance)
-
