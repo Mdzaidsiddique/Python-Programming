@@ -1,3 +1,16 @@
+
+iterator tools: (for and comprehension[])
+        |
+        | iter()
+        |
+iterator objects: (lists, file, tuple, dict, str etc)
+        |
+        | next()
+        |
+__next__() : this will check next item is present or not, if not then it will throw exception (StopIteration)
+
+
+
 >>> list = [1,2,34]
 >>> I = iter(list)
 >>> I

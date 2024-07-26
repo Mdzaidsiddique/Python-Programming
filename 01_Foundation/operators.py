@@ -58,3 +58,9 @@ print(x is not y) # returns true if both are not the same object
     # not in: opposite of in
 print("z" in "zaid")
 
+# 7- Bitwise operator: used to compare binary numbers
+# (&, |, ^, ~, <<, >>)
+
+# reference: https://www.w3schools.com/python/trypython.asp?filename=demo_oper_and
+
+
