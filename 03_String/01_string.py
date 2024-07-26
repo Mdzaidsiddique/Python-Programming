@@ -60,3 +60,15 @@ print(s, type(s))
 # reversed string in python
 s = "zaid"
 reversed_s = s[::-1]
+
+
+
+# str(): Simplified and readable.
+# repr(): Detailed and unambiguous.
+import datetime
+
+now = datetime.datetime.now()
+
+print(str(now))   # Output: 2024-07-24 12:34:56.789123
+print(repr(now))  # Output: datetime.datetime(2024, 7, 24, 12, 34, 56, 789123)
+# str() for a user-friendly representation and repr() for a detailed, unambiguous representation.
