@@ -6,3 +6,4 @@ print(squared_num.__next__())
 
 for i in squared_num:
     print(i)
+    

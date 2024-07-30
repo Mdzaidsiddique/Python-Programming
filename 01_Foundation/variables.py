@@ -58,7 +58,7 @@ def func():
 	x = "fantastic"
 	print("python is ", x)
 
-func();
+func()
 
 print("Python is "+ x)
 
