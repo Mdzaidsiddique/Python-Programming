@@ -7,3 +7,5 @@
 # Modules: are Python code libraries you can include in your project.
 
 # Referance: https://www.w3schools.com/python/python_pip.asp
+
+# It installs, upgrades, and uninstalls packages and manages dependencies.
