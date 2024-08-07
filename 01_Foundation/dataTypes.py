@@ -81,6 +81,3 @@ x = bytes(5)
 x = bytearray(5)
 x = memoryview(bytes(5))
 print(x)
-
-
-

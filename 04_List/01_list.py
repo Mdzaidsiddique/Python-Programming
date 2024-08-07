@@ -24,7 +24,7 @@ print(list1[0], list1[-1])
 
 # range of items [start():end(exclusive)]
 print(list1[0:3]) #['abc', 34, True]
-print(list1[:4]) # dtart from first value
+print(list1[:4]) # start from first value
 list1[2:] # start from 2nd and go till end
 list3 = list1[:] # create a copy (another reference) and assign to list3 
 
@@ -75,15 +75,11 @@ print(list1)
 
 
 list = ["car", "bike", "plane"]
-list[1:1] = "super Bike"
-list[1:11] = ""
+list[1:1] = "super Bike" #add each char as a item
+list[1:11] = "" # "" will assign "" value i.e remove the item"
 
-list[1:1] = ["super bike"]
+list[1:1] = ["super bike"] #add as a single item
 print(list)
-
-
-
-
 
 
 # python dont have inbuit support for arrays

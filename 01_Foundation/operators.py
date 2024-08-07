@@ -62,5 +62,3 @@ print("z" in "zaid")
 # (&, |, ^, ~, <<, >>)
 
 # reference: https://www.w3schools.com/python/trypython.asp?filename=demo_oper_and
-
-

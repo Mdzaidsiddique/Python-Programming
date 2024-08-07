@@ -23,6 +23,7 @@ def count_occurance(s, char):
 s = "zaid alif"
 print(count_occurance(s,"i"))
 
+
 print(list("zaid"))
 
 # remove duplicate character in a string

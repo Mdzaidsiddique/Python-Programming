@@ -1,4 +1,3 @@
-import time
 username = "zaid"
 ""
 print(username)

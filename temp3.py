@@ -34,7 +34,7 @@ def format_string(string):
 
 # format_string(user_input)
 
-# wap to remove nth occurance of a wword from a list
+# wap to remove nth occurance of a word from a list
 
 # list = ['zaid', 'alif', 'sidd', 'ad', 'zaid', 'zaid', 'alif', 'zaid'] # remove 3rd occurance of 'zaid'
 

@@ -1,26 +1,26 @@
-# split()
+# # split()
 
-# capitalize()
+# # capitalize()
 
 
-# casefold()
+# # casefold()
 
-count()
-encode()
+# count()
+# encode()
 
-endswith()
-find()
-format()
+# endswith()
+# find()
+# format()
 
-join()
+# join()
 
-ljust()
-rjust()
+# ljust()
+# rjust()
 
-partition()
+# partition()
 
-replace()
+# replace()
 
-strip()
+# strip()
 
-zfill()
+# zfill()
