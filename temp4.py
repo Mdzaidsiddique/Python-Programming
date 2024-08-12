@@ -1,11 +1,11 @@
-l = ["java", 'python', 'c++']
-d = "programming language"
+a = ["zaid", "asima"]
+a = 23
+a = 5j
+# name@gmail.com
 
-dd = dict.fromkeys(l, d)
-print(dd)
+def email_maker(name):
+    return f"{name}@gmail.com"
 
-ddd = {1:2, 2:3}
+email_a = map(email_maker, a)
 
-# d4 = {**dd, **ddd}
-dd.update(ddd)
-print(dd)
+[print(x) for x in email_a]
