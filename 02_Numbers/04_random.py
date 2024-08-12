@@ -15,7 +15,7 @@ print(random.randrange(1,10,2))
 
 choices = ['apple', 'banana', 'cherry', 'date']
 
-# singale random choice
+# single random choice
 print(random.choice(choices))
 
 # multiple random choices with replacement

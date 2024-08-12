@@ -27,3 +27,22 @@ def calculate_fn_exe_time(n):
     print(f"execute this function after {n} sec")
 
 calculate_fn_exe_time(3)
+
+
+
+
+# another decorators 
+def dec_fun(functionp):
+    def wrapper(*args):
+        
+        print(*args)
+        functionp(*args)
+        print('after execution')
+
+    return wrapper
+
+@dec_fun
+def myfun(name, age):
+    return name, age
+
+myfun("zaid", 45)

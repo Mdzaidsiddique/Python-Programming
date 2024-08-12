@@ -62,7 +62,6 @@ if x>100:
 else:
     print("x is less than 100")
 
-# pass keyword: if statement can not be empty but for any reason if we dont have any content then we can use pass 
-# to avoid error
+# pass keyword: if statement can not be empty but for any reason if we dont have any content then we can use pass to avoid error
 if a>b:
     pass

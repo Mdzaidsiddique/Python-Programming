@@ -11,3 +11,7 @@ dict1.update(dict2)
 # dict1.clear()
 dict1.pop("a")
 print(dict1)
+
+# dict.formsKeys([iterables as key], values)
+defaults = dict.fromkeys(["name", "age", "city"], "unknown")
+print(defaults) #{'name': 'Unknown', 'age': 'Unknown', 'city': 'Unknown'}

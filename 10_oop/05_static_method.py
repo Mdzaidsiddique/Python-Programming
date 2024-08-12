@@ -6,6 +6,7 @@ class Car:
         self.name = name
         self.brand = brand
 
+
     # static method
     @staticmethod
     def general_description():

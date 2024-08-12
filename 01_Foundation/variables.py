@@ -58,7 +58,7 @@ def func():
 	x = "fantastic"
 	print("python is ", x)
 
-func();
+func()
 
 print("Python is "+ x)
 
@@ -77,12 +77,13 @@ print("Python is ", x)
 
 # also we can use global keyword to cahnge the global variable inside a function
 
-score = 10
+x = "zaid"
 
-def funTwo():
-	global score
-	score = 90
-	print("Score inside fun is ", score); # 90
+def fun():
+    global x
+    x = "alif"
+    print("inside :", x) #alif
 
-funTwo()
-print("Score outside fun is ", score) # 90
+print("outside: ",x) #zaid
+fun()
+print("after calling : ", x) #alif

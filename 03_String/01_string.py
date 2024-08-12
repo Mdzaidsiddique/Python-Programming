@@ -72,3 +72,12 @@ now = datetime.datetime.now()
 print(str(now))   # Output: 2024-07-24 12:34:56.789123
 print(repr(now))  # Output: datetime.datetime(2024, 7, 24, 12, 34, 56, 789123)
 # str() for a user-friendly representation and repr() for a detailed, unambiguous representation.
+
+
+# string path conversion
+path = "C:\Users\mdzaids\Desktop\folder_name\homepage.png"
+# by using double backslash
+path = "C:\\Users\\mdzaids\\Desktop\\folder_name\\homepage.png"
+
+# by using raw string 
+path = r"C:\\Users\\mdzaids\\Desktop\\folder_name\\homepage.png"

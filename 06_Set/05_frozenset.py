@@ -2,7 +2,6 @@
 # *Set items are unchangeable, but we can remove items and add new items
 
 # Frozenset: A frozenset is an immutable version of a set (hashable)
-# Set: Mutable. You can add, remove, and modify elements in a set.
 # Frozenset: Immutable. Once created, you cannot change its elements.
 
 fzs1 = frozenset([1,3,4])

@@ -27,3 +27,11 @@ print(result) # ['The', 'rain', 'in', 'Spain']
 txt = "The rain in Spain"
 x = re.sub("\s", "-", txt)
 print(x) #The-rain-in-Spain
+
+
+# Regular expression pattern for matching email addresses
+email_pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
+e = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
+
+# Find all email addresses in the text
+emails = re.findall(email_pattern, text)
