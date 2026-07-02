@@ -30,6 +30,10 @@ float1 = float(5) # 5.0
 print(type(str1), type(float1))
 
 
+a = 5
+b = int(5)
+print(id(a) == id(b))  # Outputs: True (exact memory address)
+
 
 
 
